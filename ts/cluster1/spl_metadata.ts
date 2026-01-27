@@ -29,8 +29,8 @@ umi.use(signerIdentity(createSignerFromKeypair(umi, keypair)));
         }
 
         let data: DataV2Args = {
-            name: "Seige",
-            symbol: "SEIG",
+            name: "HolicToken",
+            symbol: "HOT",
             uri: "https://gist.github.com/Hood-Codivo/1b15cec541c67f1b5b0f6be073bac8f7",
             sellerFeeBasisPoints: 0,
             creators: null,
